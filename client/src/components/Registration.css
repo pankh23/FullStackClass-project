@@ -1,0 +1,188 @@
+
+
+   /* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/167/404/non_2x/simply-soft-gradation-technology-background-free-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: backgroundAnimation 10s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-position: center; }
+    100% { background-position: top right; }
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0); 
+  }
+  
+  .registration-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 28, 41, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; 
+    width: 100%;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form .form-row {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .registration-form input {
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .registration-form .radio-group {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+  }
+  
+  .registration-form .radio-group input {
+    margin: 0; 
+  }
+  
+  .registration-form .radio-group label {
+    margin-right: 10px; 
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 15px; 
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background: #0056b3;
+  }
+  
+  .registration-form p {
+    text-align: center;
+  }
+  
+  .registration-form a {
+    color: #007bff;
+  }
+   */
+
+
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/167/404/non_2x/simply-soft-gradation-technology-background-free-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: backgroundAnimation 4s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-position: center; }
+    100% { background-position: top right; }
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.1); /* To darken the entire background image */
+  }
+  
+  .registration-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 28, 41, 0.8); /* Light transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Increased max-width */
+    width: 100%;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form .form-row {
+    display: flex;
+    gap: 20px; /* Space between input fields */
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .registration-form input {
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form .radio-group {
+    display: flex;
+    flex-direction: column; /* Arrange radio buttons vertically */
+    gap: 5px; /* Adjust this value to reduce the gap */
+  }
+  
+  .registration-form .radio-group input {
+    margin: 8px -175px 0 0; /* Adjust margin around the radio button */
+  }
+  
+  .registration-form .radio-group label {
+    margin: 0px; /* Adjust spacing between button and label if needed */
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 15px; /* Increased height */
+    background: #4b29d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background: #400de4;
+  }
+  
+  .registration-form p {
+    text-align: center;
+  }
+  
+  .registration-form a {
+    color: #007bff;
+  }
+  
