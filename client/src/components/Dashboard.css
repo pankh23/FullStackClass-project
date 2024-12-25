@@ -1,0 +1,99 @@
+/* 
+
+   .dashboard-container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30509.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: backgroundAnimation 4s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-position: center; }
+    100% { background-position: top right; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  .dashboard-content {
+    width: 90%;
+    max-width: 1200px;
+    background: rgb(38, 39, 40);
+    opacity: 0.9;
+    color: white;
+    padding: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+   */
+
+   .dashboard-container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30509.jpg') no-repeat center center fixed;
+    background-size: cover;
+    animation: backgroundAnimation 4s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-position: center; }
+    100% { background-position: top right; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  .dashboard-content { width: 90%; 
+    max-width: 1200px; 
+    background: rgb(38, 39, 40); 
+    opacity: 0.9; 
+    color: white; 
+    padding: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    border: 25px solid rgb(122, 122, 125); /* Added thick white border */ 
+}
+
+  table th, table td {
+    padding: 15px; /* Reduced padding */
+  }
+  
