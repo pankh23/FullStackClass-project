@@ -3,17 +3,6 @@
     "name": "Pankhuri Khurana",
     "email": "pankhurikhurana23@gmail.com",
     "phone": "09255538746",
-    "gender": "Male",
-    "age": "23",
-    "dob": "2024-12-06",
-    "address": "285/25 Gandhi Nagar Rohtak",
-    "password": "wer",
-    "verified": true
-  },
-  {
-    "name": "Pankhuri Khurana",
-    "email": "pankhurikhurana23@gmail.com",
-    "phone": "09255538746",
     "gender": "Female",
     "age": "23",
     "dob": "2024-12-05",
@@ -21,7 +10,6 @@
     "password": "345",
     "verified": true
   },
-  
   {
     "name": "tanya",
     "email": "pankhuri0925.be23@chitkara.edu.in",
@@ -31,6 +19,17 @@
     "dob": "2022-07-15",
     "address": "dhfuebw ",
     "password": "tr",
+    "verified": true
+  },
+  {
+    "name": "Pankhuri Khurana",
+    "email": "pankhurikhurana23@gmail.com",
+    "phone": "09255538746",
+    "gender": "Male",
+    "age": "12",
+    "dob": "2024-12-13",
+    "address": "285/25 Gandhi Nagar Rohtak",
+    "password": "we",
     "verified": true
   }
 ]
