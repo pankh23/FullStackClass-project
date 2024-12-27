@@ -31,5 +31,16 @@
     "address": "285/25 Gandhi Nagar Rohtak",
     "password": "we",
     "verified": true
+  },
+  {
+    "name": "Pankhuri Khurana",
+    "email": "pankhurikhurana23@gmail.com",
+    "phone": "09255538746",
+    "gender": "Female",
+    "age": "12",
+    "dob": "",
+    "address": "285/25 Gandhi Nagar Rohtak",
+    "password": "yu",
+    "verified": true
   }
 ]

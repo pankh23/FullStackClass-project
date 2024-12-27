@@ -76,24 +76,6 @@ app.get("/users", (req, res) => {
 });
 
 
-// app.post("/api/login", (req, res) => {
-//   const { emailOrPhone, password } = req.body;
-
-//   let users = [];
-//   if (fs.existsSync(USERS_FILE)) {
-//     users = JSON.parse(fs.readFileSync(USERS_FILE, "utf8"));
-//   }
-
-//   const user = users.find(user => (user.email === emailOrPhone || user.phone === emailOrPhone) && user.password === password);
-
-//   if (user) {
-//     res.status(200).send({ success: true });
-//   } else {
-//     res.status(401).send({ success: false });
-//   }
-// });
-
-
 app.post("/api/login", (req, res) => {
   const { emailOrPhone, password } = req.body;
 
